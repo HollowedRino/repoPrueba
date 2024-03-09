@@ -1,7 +1,7 @@
 from tkinter import *
 import heapq
 from PIL import ImageTk, Image
-#Es necesario instalar la librería PIL (pip install Pillow) en el termina
+
 
 class DijkstraGUI:
 
