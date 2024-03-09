@@ -1,7 +1,7 @@
 from tkinter import *
 import heapq
 from PIL import ImageTk, Image
-
+#Es necesario instalar la librería PIL (pip install Pillow) en el termina
 
 class DijkstraGUI:
 
@@ -17,7 +17,7 @@ class DijkstraGUI:
     self.canvas.place(x=0, y=0)
 
     self.canvas.create_image(0, 0, anchor=NW, image=self.mapa_tk)
-
+#este es otro comentario mas xdxdxd
     self.original_graph = {
         'LIMA': {
             'ICA': 1.40,
